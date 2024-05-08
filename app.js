@@ -8,7 +8,7 @@ require("dotenv").config();
 
 
 app.use(cors({
-  origin: ['http://localhost:3000',],
+  origin: ['https://frontend-eshop-sepia.vercel.app',],
   credentials: true
 }));
 
